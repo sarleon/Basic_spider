@@ -1,7 +1,7 @@
 import urllib
 import urllib2
 
-values={"username":"151250081","password":"610402199705023894"}
+values={"username":"xxxxxxxxxxx","password":"xxxxxxxxxx"}
 data=urllib.urlencode(values)
 url="http://219.219.114.172/portal_io/login"
 headerValue={
