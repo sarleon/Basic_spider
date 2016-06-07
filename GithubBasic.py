@@ -18,6 +18,7 @@ pattern=re.compile("data-count.*"+currentTime)
 match=pattern.search(webpage)
 if match:
       line= match.group()
+
       pattern2=re.compile("\"\d*\"")
       match2=pattern2.search(line)
       print "Linus Torvalds 今天一共push了"+match2.group()+"次"
